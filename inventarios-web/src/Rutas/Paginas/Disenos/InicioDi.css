@@ -1,0 +1,44 @@
+/* InicioDi.css */
+
+.inicio-container {
+    padding: 20px;
+    font-family: Arial, sans-serif;
+  }
+  
+  .categoria-section {
+    margin-bottom: 30px;
+  }
+  
+  .categoria-section h3 {
+    border-bottom: 2px solid #ccc;
+    padding-bottom: 10px;
+  }
+  
+  .productos-list {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .producto-card {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 15px;
+    margin: 10px;
+    width: calc(33% - 40px); /* Ajusta el ancho para el diseño responsivo */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .producto-card img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 4px;
+  }
+  
+  .producto-card h4 {
+    margin-top: 0;
+  }
+  
+  .producto-card p {
+    margin: 5px 0;
+  }
+  
